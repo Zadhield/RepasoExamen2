@@ -1,5 +1,5 @@
 <template>
-  <ExamenPage />
+  <EjercicioView />
 </template>
 
 <script>
@@ -7,6 +7,7 @@ import CasinoView from './views/CasinoView.vue';
 import PokemonView from './views/PokemonView.vue';
 import PreguntaView from './views/PreguntaView.vue';
 import ExamenPage from './views/ExamenPage.vue'
+import EjercicioView from './views/EjercicioView.vue';
 
 export default {
   name: "App",
@@ -15,6 +16,7 @@ export default {
     CasinoView,
     PokemonView,
     ExamenPage,
+    EjercicioView,
   },
 };
 </script>
